@@ -6,7 +6,7 @@ export function insertTemperature(req, res) {
     let temperature = req.body.temp;
     var ip_address = req.ip.replace('::ffff:', '');
     console.log(ip_address);
-    insertSensorData(0, temperature, ip_address, 0);
+    insertSensorData(moment().unix(), temperature, ip_address);
     res.status(200).send({"success": true});
     return;
 }
