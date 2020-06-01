@@ -14,5 +14,22 @@
     "express": "^4.17.1",
     "moment": "^2.26.0",
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivykoko1/ESP8266HomeStation-API.git"
+  },
+  "keywords": [
+    "esp8266",
+    "api",
+    "rest",
+    "node",
+    "express",
+    "sensors"
+  ],
+  "bugs": {
+    "url": "https://github.com/ivykoko1/ESP8266HomeStation-API/issues"
+  },
+  "homepage": "https://github.com/ivykoko1/ESP8266HomeStation-API#readme"
 }
