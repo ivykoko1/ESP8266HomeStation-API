@@ -1,0 +1,6 @@
+file:///home/ivykoko1/ESP8266HomeStation-API/routes/temp.js:1
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at Loader.moduleStrategy (internal/modules/esm/translators.js:81:18)

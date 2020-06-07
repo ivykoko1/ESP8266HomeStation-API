@@ -1,5 +1,5 @@
-import {insertSensorData} from "../db.js"
-import moment from  "moment"
+import {insertSensorData} from "../db.js";
+import moment from  "moment";
 export let endpoint  = "/temp";
 
 export function insertTemperature(req, res) {

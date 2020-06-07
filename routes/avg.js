@@ -1,5 +1,4 @@
-
-import {raw} from "../db.js"
+import {raw} from "../db.js";
 export let avgEndpoint = "/avg/:minutes";
 
 export async function getAvg(req, res) {
