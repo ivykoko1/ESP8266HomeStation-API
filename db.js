@@ -10,8 +10,6 @@ var config = {
 
 let db = makeDb(config);
 
-
-
 function makeDb( config ) {
     const connection = mysql.createConnection( config );
     return {
@@ -45,7 +43,7 @@ export async function select(cols, table, conditions){
   db = makeDb(config);
   let sql = `SELECT ${cols} FROM ${table} ${conditions};`;
   console.log(sql);
-  let result =   db.query(sql);
+  let result = db.query(sql);
   db.close()
   return result
 }
